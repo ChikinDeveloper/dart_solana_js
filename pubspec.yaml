@@ -1,0 +1,21 @@
+name: solana_js
+description: Interface for interacting with Solana JS libraries
+version: 1.0.0
+homepage: https://chikin.run
+
+environment:
+  sdk: '>=2.14.4 <3.0.0'
+
+dependencies:
+  solana:
+    git:
+      url: https://github.com/ChikinDeveloper/ext_solana_dart
+      path: packages/solana
+      ref: cb998ece936f1abdac624cac9ee8985b9ad5e98d
+
+  json_annotation: ^4.3.0
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
+  json_serializable: ^6.0.1
