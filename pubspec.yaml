@@ -4,14 +4,14 @@ version: 1.0.0
 homepage: https://chikin.run
 
 environment:
-  sdk: '>=2.14.4 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   solana:
     git:
       url: https://github.com/ChikinDeveloper/ext_solana_dart
       path: packages/solana
-      ref: cb998ece936f1abdac624cac9ee8985b9ad5e98d
+      ref: ae03e3929f39bd849198421647166b9adc1950fc
 
   json_annotation: ^4.3.0
 
