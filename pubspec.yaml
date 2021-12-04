@@ -13,9 +13,8 @@ dependencies:
       path: packages/solana
       ref: ae03e3929f39bd849198421647166b9adc1950fc
 
-  json_annotation: ^4.3.0
+  json_annotation: ^4.0.1
 
 dev_dependencies:
   lints: ^1.0.0
-  test: ^1.16.0
-  json_serializable: ^6.0.1
+  json_serializable: ^5.0.0
